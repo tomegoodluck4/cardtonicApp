@@ -60,7 +60,7 @@ const Pin = () => {
         console.log(response.data);
         reset();
         resetPin();
-        navigate("/pin");
+        navigate("/otp");
       })
       .catch((error) => {
         console.error("There was an error!", error);
